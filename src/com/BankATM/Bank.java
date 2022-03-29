@@ -66,7 +66,8 @@ public class Bank {
 				Scanner sc = new Scanner(System.in);
 
 				System.out.println("Enter the option");
-				option = sc.next().charAt(0);
+				char option1 = sc.next().charAt(0);
+				option=Character.toUpperCase(option1);
 				switch (option) {
 				case 'A':
 					System.out.println("Enter the amount you want to deposit");
