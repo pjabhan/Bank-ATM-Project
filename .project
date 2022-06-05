@@ -6,6 +6,9 @@
 	</projects>
 	<!-- Hello
 	-->
+
+	<!-- Hello Second
+    	-->
 	<buildSpec>
 		<buildCommand>
 			<name>org.eclipse.jdt.core.javabuilder</name>
